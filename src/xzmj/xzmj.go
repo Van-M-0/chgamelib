@@ -2,13 +2,13 @@ package xzmj
 
 import (
 	"exportor/defines"
-	"gamedef"
+	"def"
 )
 
 func GetLib() defines.GameModule {
 	return defines.GameModule{
-		Type: gamedef.GameLibXz,
-		Creator: createXzLib,
+		Type:     def.GameLibXz,
+		Creator:  createXzLib,
 		Releaser: releaseXzLib,
 		GameData: nil,
 	}

@@ -1,4 +1,4 @@
-package gamedef
+package def
 
 const (
 	GameLibXz		= 1
