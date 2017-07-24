@@ -1,10 +1,12 @@
+//go:binary-only-package
+
 package gamelib
 
 import (
-	"starter"
 	"exportor/defines"
+	"fmt"
 )
 
 func StartGame(modules []defines.GameModule) {
-	starter.StartProgram("game", modules)
+	fmt.Println("start game ...")
 }
