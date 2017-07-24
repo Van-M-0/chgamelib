@@ -3,6 +3,7 @@ package xzmj
 import (
 	"exportor/defines"
 	"def"
+	"fmt"
 )
 
 func GetLib() defines.GameModule {
@@ -15,10 +16,12 @@ func GetLib() defines.GameModule {
 }
 
 func createXzLib() defines.IGame {
+	fmt.Println("create xz lib")
 	return newlib()
 }
 
 func releaseXzLib(game defines.IGame) {
+	fmt.Println("release xz lib")
 	game.OnRelease()
 }
 
