@@ -1,9 +1,11 @@
-//go:binary-only-package
+//go:binary-only-packagea
 
 package gamelib
 
 import (
 	"exportor/defines"
+	"starter"
+	"msgpacker"
 )
 
 func StartGame(modules []defines.GameModule) {

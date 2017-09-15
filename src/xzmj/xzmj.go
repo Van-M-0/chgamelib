@@ -12,6 +12,7 @@ func GetLib() defines.GameModule {
 		Creator:  createXzLib,
 		Releaser: releaseXzLib,
 		GameData: nil,
+		PlayerCount: 4,
 	}
 }
 
